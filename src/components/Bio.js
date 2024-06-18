@@ -11,8 +11,8 @@ const Bio = () => {
         </p>
         <div className="bio-photos">
           <img src={`${process.env.PUBLIC_URL}/images/profile1.jpg`} alt="Profile 1" />
-          <img src={`${process.env.PUBLIC_URL}/images/profile2.jpg`} alt="Profile 2" />
-          <img src={`${process.env.PUBLIC_URL}/images/profile3.jpg`} alt="Profile 3" />
+          <img src={`${process.env.PUBLIC_URL}/images/profile2.JPG`} alt="Profile 2" />
+          <img src={`${process.env.PUBLIC_URL}/images/profile3.JPG`} alt="Profile 3" />
         </div>
       </div>
     </div>
