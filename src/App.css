@@ -1,0 +1,49 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #dd7373;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem; 
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white; 
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
